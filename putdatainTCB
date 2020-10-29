@@ -1,0 +1,8 @@
+
+
+int putdataintcb(struct * tcp,struct user_regs_struct uregs)
+{
+	tcp-> scno = uregs.orig_rax
+
+
+}
